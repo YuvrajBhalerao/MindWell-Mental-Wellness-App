@@ -1,0 +1,11 @@
+{
+    "user_id": "001",
+    "mood_log": [
+        {"date": "2025-07-01", "mood": "Happy", "notes": "Had a good day at work"},
+        {"date": "2025-07-02", "mood": "Anxious", "notes": "Upcoming presentation"}
+    ],
+    "activity_history": [
+        {"activity": "Breathing Exercise", "timestamp": "2025-07-01T08:30:00"},
+        {"activity": "Journaling", "timestamp": "2025-07-02T21:00:00"}
+    ]
+}
