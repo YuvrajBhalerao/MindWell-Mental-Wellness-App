@@ -1,123 +1,117 @@
 {
-  "user_id": "mg_user_001",
-  "username": "green_mind_87",
-  "created_at": "2025-07-01T10:30:00Z",
-  "last_login": "2025-07-02T12:45:00Z",
+  "user_id": "U001",
   "profile": {
-    "age": 22,
-    "location": "India",
-    "preferred_theme": "dark",
-    "daily_reminder_time": "20:30",
-    "ai_spirit": {
-      "name": "Orrin the Owl",
-      "role": "Emotional Insight",
-      "level": 3,
-      "bond_score": 78
+    "name": "Aarav Mehta",
+    "email": "aarav.mehta@example.com",
+    "age": 24,
+    "gender": "Male",
+    "location": "Mumbai, India",
+    "created_at": "2025-06-01T08:30:00Z",
+    "preferences": {
+      "preferred_language": "English",
+      "notification_opt_in": true,
+      "daily_checkin_time": "20:00"
     }
   },
-  "mood_journal": [
+  "mood_log": [
+    {
+      "date": "2025-07-01",
+      "mood": "Happy",
+      "intensity": 4,
+      "notes": "Had a productive day and a relaxing evening walk"
+    },
     {
       "date": "2025-07-02",
       "mood": "Anxious",
-      "intensity": 6,
-      "note": "Worried about upcoming exam.",
-      "actions_taken": ["Breathing exercise", "Journaled for 10 mins"]
+      "intensity": 3,
+      "notes": "Upcoming project deadline"
     },
+    {
+      "date": "2025-07-03",
+      "mood": "Neutral",
+      "intensity": 2,
+      "notes": "Average day, nothing special"
+    }
+  ],
+  "activity_suggestions": [
     {
       "date": "2025-07-01",
-      "mood": "Content",
-      "intensity": 4,
-      "note": "Spent time with friends and went for a walk.",
-      "actions_taken": ["Walked for 30 mins", "Listened to forest sounds"]
+      "suggestions": [
+        "10-minute breathing exercise",
+        "Gratitude journaling",
+        "Short walk in nature"
+      ],
+      "accepted_suggestions": [
+        "10-minute breathing exercise"
+      ]
+    },
+    {
+      "date": "2025-07-02",
+      "suggestions": [
+        "Listen to calming music",
+        "Reflective journaling"
+      ],
+      "accepted_suggestions": [
+        "Reflective journaling"
+      ]
     }
   ],
-  "biosync_data": {
-    "heart_rate": {
-      "average": 76,
-      "resting": 62,
-      "stress_peak": 104,
-      "timestamp": "2025-07-02T09:00:00Z"
+  "self_care_history": [
+    {
+      "activity": "Breathing Exercise",
+      "timestamp": "2025-07-01T21:00:00Z",
+      "duration_minutes": 10,
+      "satisfaction": 5
     },
-    "sleep": {
-      "hours": 6.5,
-      "quality": "moderate",
-      "sleep_score": 67,
-      "last_night": "2025-07-02"
-    },
-    "step_count": {
-      "today": 5400,
-      "goal": 6000
+    {
+      "activity": "Journaling",
+      "timestamp": "2025-07-02T22:00:00Z",
+      "duration_minutes": 15,
+      "satisfaction": 4
     }
-  },
-  "forest_state": {
-    "trees": [
+  ],
+  "peer_support": {
+    "posts": [
       {
-        "species": "Fog Fern",
-        "mood_linked": "Anxiety",
-        "growth_stage": "sapling",
-        "last_watered": "2025-07-02"
-      },
-      {
-        "species": "Sunflower Tree",
-        "mood_linked": "Joy",
-        "growth_stage": "blooming",
-        "last_watered": "2025-07-01"
+        "post_id": "P102",
+        "timestamp": "2025-07-01T19:00:00Z",
+        "content": "Feeling much better after a walk. Nature heals.",
+        "likes": 12,
+        "comments": [
+          {
+            "user": "U014",
+            "comment": "So true! Glad you're feeling better 😊"
+          }
+        ]
       }
     ],
-    "ambient_music_state": "light_rain_and_chimes",
-    "weather": "cloudy",
-    "biodiversity_score": 45.2
+    "comments": [
+      {
+        "post_id": "P099",
+        "comment": "Sending strength! You're not alone. 💪"
+      }
+    ]
   },
-  "self_care_habits": {
-    "breathing_exercises": {
-      "completed": 6,
-      "streak": 2
-    },
-    "journaling": {
-      "entries": 18,
-      "last_entry": "2025-07-02"
-    },
-    "nature_walks": {
-      "logged_walks": 9
-    },
-    "screen_breaks": {
-      "today": 3
+  "wearable_data": {
+    "sleep_quality_score": 78,
+    "resting_heart_rate": 65,
+    "stress_level": "Moderate"
+  },
+  "progress_tracking": {
+    "streak_days": 3,
+    "achievements": [
+      "First Check-In",
+      "3-Day Streak",
+      "First Journal Entry"
+    ],
+    "mood_trend": {
+      "7_day_average": "Neutral",
+      "most_frequent_mood": "Happy"
     }
   },
-  "whisper_stones": [
-    {
-      "id": "ws_34934",
-      "message": "Feeling overwhelmed. Just needed to release it.",
-      "timestamp": "2025-07-02T10:00:00Z",
-      "feedback_received": 12
-    },
-    {
-      "id": "ws_34935",
-      "message": "I’m learning to breathe again.",
-      "timestamp": "2025-06-30T19:22:00Z",
-      "feedback_received": 5
-    }
-  ],
-  "achievements": {
-    "forest_unlocked_zones": ["Bloom Patch", "Rainy Hollow"],
-    "rare_species_collected": ["Blue Phoenix Tree"],
-    "real_tree_planted": {
-      "planted": true,
-      "certificate_id": "TREE-IND-20250629-87",
-      "location": "Maharashtra, India"
-    }
-  },
-  "notifications": {
-    "mood_check_in_reminder": true,
-    "forest_weather_alerts": false,
-    "new_spirit_messages": true
-  },
-  "privacy_settings": {
-    "data_sharing": {
-      "share_anonymously_for_research": false,
-      "sync_with_cloud": true
-    },
-    "whisper_stones_visibility": "anonymous",
-    "mood_data_retention_days": 365
+  "security": {
+    "two_factor_enabled": true,
+    "data_encrypted": true,
+    "last_login": "2025-07-03T09:00:00Z"
   }
 }
