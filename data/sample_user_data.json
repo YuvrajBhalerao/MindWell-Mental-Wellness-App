@@ -1,11 +1,123 @@
 {
-    "user_id": "001",
-    "mood_log": [
-        {"date": "2025-07-01", "mood": "Happy", "notes": "Had a good day at work"},
-        {"date": "2025-07-02", "mood": "Anxious", "notes": "Upcoming presentation"}
+  "user_id": "mg_user_001",
+  "username": "green_mind_87",
+  "created_at": "2025-07-01T10:30:00Z",
+  "last_login": "2025-07-02T12:45:00Z",
+  "profile": {
+    "age": 22,
+    "location": "India",
+    "preferred_theme": "dark",
+    "daily_reminder_time": "20:30",
+    "ai_spirit": {
+      "name": "Orrin the Owl",
+      "role": "Emotional Insight",
+      "level": 3,
+      "bond_score": 78
+    }
+  },
+  "mood_journal": [
+    {
+      "date": "2025-07-02",
+      "mood": "Anxious",
+      "intensity": 6,
+      "note": "Worried about upcoming exam.",
+      "actions_taken": ["Breathing exercise", "Journaled for 10 mins"]
+    },
+    {
+      "date": "2025-07-01",
+      "mood": "Content",
+      "intensity": 4,
+      "note": "Spent time with friends and went for a walk.",
+      "actions_taken": ["Walked for 30 mins", "Listened to forest sounds"]
+    }
+  ],
+  "biosync_data": {
+    "heart_rate": {
+      "average": 76,
+      "resting": 62,
+      "stress_peak": 104,
+      "timestamp": "2025-07-02T09:00:00Z"
+    },
+    "sleep": {
+      "hours": 6.5,
+      "quality": "moderate",
+      "sleep_score": 67,
+      "last_night": "2025-07-02"
+    },
+    "step_count": {
+      "today": 5400,
+      "goal": 6000
+    }
+  },
+  "forest_state": {
+    "trees": [
+      {
+        "species": "Fog Fern",
+        "mood_linked": "Anxiety",
+        "growth_stage": "sapling",
+        "last_watered": "2025-07-02"
+      },
+      {
+        "species": "Sunflower Tree",
+        "mood_linked": "Joy",
+        "growth_stage": "blooming",
+        "last_watered": "2025-07-01"
+      }
     ],
-    "activity_history": [
-        {"activity": "Breathing Exercise", "timestamp": "2025-07-01T08:30:00"},
-        {"activity": "Journaling", "timestamp": "2025-07-02T21:00:00"}
-    ]
+    "ambient_music_state": "light_rain_and_chimes",
+    "weather": "cloudy",
+    "biodiversity_score": 45.2
+  },
+  "self_care_habits": {
+    "breathing_exercises": {
+      "completed": 6,
+      "streak": 2
+    },
+    "journaling": {
+      "entries": 18,
+      "last_entry": "2025-07-02"
+    },
+    "nature_walks": {
+      "logged_walks": 9
+    },
+    "screen_breaks": {
+      "today": 3
+    }
+  },
+  "whisper_stones": [
+    {
+      "id": "ws_34934",
+      "message": "Feeling overwhelmed. Just needed to release it.",
+      "timestamp": "2025-07-02T10:00:00Z",
+      "feedback_received": 12
+    },
+    {
+      "id": "ws_34935",
+      "message": "I’m learning to breathe again.",
+      "timestamp": "2025-06-30T19:22:00Z",
+      "feedback_received": 5
+    }
+  ],
+  "achievements": {
+    "forest_unlocked_zones": ["Bloom Patch", "Rainy Hollow"],
+    "rare_species_collected": ["Blue Phoenix Tree"],
+    "real_tree_planted": {
+      "planted": true,
+      "certificate_id": "TREE-IND-20250629-87",
+      "location": "Maharashtra, India"
+    }
+  },
+  "notifications": {
+    "mood_check_in_reminder": true,
+    "forest_weather_alerts": false,
+    "new_spirit_messages": true
+  },
+  "privacy_settings": {
+    "data_sharing": {
+      "share_anonymously_for_research": false,
+      "sync_with_cloud": true
+    },
+    "whisper_stones_visibility": "anonymous",
+    "mood_data_retention_days": 365
+  }
 }
